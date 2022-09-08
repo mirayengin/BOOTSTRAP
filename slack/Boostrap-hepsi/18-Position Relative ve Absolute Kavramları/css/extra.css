@@ -1,0 +1,15 @@
+.myHeight{
+  height:550px;  
+}
+
+.Box{
+  width:100px;
+  height: 100px;
+  background-color: blueviolet;
+}
+
+.Box-2{
+  position:absolute;
+  right:0;
+  top:0;
+}
