@@ -80,7 +80,44 @@
   
   /*! ----------- 6- CONTACT SECTION ------------ */
   
-  /** -------------- UP-BUTTON ------------------ */
   
   /*! --------------- 7- FOOTER ----------------- */
   
+  footer i {
+    font-size: 2rem;
+    color: white;
+    margin-right: 0.8rem;
+  }
+  
+  footer i:hover {
+    transition: 1s;
+    color: red;
+  }
+
+
+  /** -------------- UP-BUTTON ------------------ */
+
+  .btn-up {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    color: white;
+    background-color: red;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+  }
+
+  .btn-up:hover {
+    color: black;
+    
+  }
+
+  .btn-up i {
+    font-weight: 900;
+  }

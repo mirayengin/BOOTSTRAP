@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="./css/app.css" />
   </head>
 
-  <body>
+  <body id="body">
     <!-- NAVBAR -->
 
     <nav
@@ -567,19 +567,66 @@
 
 
           </div>
+
+          <form class="row g-3 mt-4">
+
+            <div class="col-md-6">
+              <input type="text" class="form-control" id="name" placeholder="Enter Your Name">
+            </div>
+
+            <div class="col-md-6">
+              <input type="email" class="form-control" id="email" placeholder="Enter Your Email">
+            </div>
+
+            <div class="col-12">
+              <input type="text" class="form-control" id="subject" placeholder="Enter Your Subject">
+            </div>
+
+            <div class="col-12 form-floating">
+              <textarea type="text" class="form-control" id="comment" placeholder="Enter Your Comment"></textarea>
+              <label for="comment">Comments</label>
+            </div>
+
+            <div class="col-12">
+              <button type="submit" class="btn btn-danger" style="width: 7rem">Summit</button>
+            </div>
+          </form>
+
         </article>
 
 
 
 
-        <article id="location"></article>
+        <article id="location ">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d96035.06881112247!2d28.69638264712669!3d41.21968055461348!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x380ce02cc824e506!2zxLBzdGFuYnVsIEhhdmFsaW1hbsSx!5e0!3m2!1str!2str!4v1663183819821!5m2!1str!2str" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mt-4"></iframe>
+        </article>
       </section>
     </main>
 
     <!-- FOOTER -->
+    <footer class="bg-dark text-center  text-white p-4">
+      <article>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"> <i class="fab fa-youtube"></i></a>
+        <a href="#"> <i class="fab fa-linkedin"></i></a>
+        <a href="#"> <i class="fab fa-instagram"></i></a>
+      </article>
+
+      <article class="p-4 h6">
+        &copy
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        Copyrıght by Clarusway
+      </article>
+    </footer>
     
 
     <!-- UP-BTN -->
+
+    <a href="body" class="btn-up">
+      <i class="fas fa-arrow-up"></i>
+    </a>
 
     <!-- SCRIPTS -->
 
