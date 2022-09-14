@@ -68,6 +68,15 @@
   /*! ----------- 4- STUDENTS SECTION ----------*/
   
   /*! ----------- 5- COURSES SECTION ----------- */
+
+  section .nav-item .nav-link.active {
+    background-color: red !important;
+    
+  }
+
+  section#courses .nav-link {
+    color: white;
+  }
   
   /*! ----------- 6- CONTACT SECTION ------------ */
   

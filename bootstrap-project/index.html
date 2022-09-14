@@ -186,7 +186,7 @@
       </section>
 
       <!-- INSTRUCTORS -->
-      <section id="instructors" class="container bg-dark p-3">
+      <section id="instructors" class="container bg-dark p-3 justify-content-center">
         <h2 class="display-6 text-danger">INSTRUCTORS</h2>
         <div class="row g-3 justify-content-center">
           <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
@@ -327,16 +327,257 @@
       </section>
 
       <!-- STUDENTS -->
-      <section id="students"></section>
+      <section id="students" class="container bg-light">
+
+        <h1 class="text-danger text-center display-6 py-5">OUR STUDENTS</h1>
+
+        <div class="row d-flex align-items-center justify-content-center ">
+
+          <div class="col-12 col-md-6 justify-content-center">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In at totam id praesentium? Facilis expedita, ut necessitatibus enim consectetur ratione. Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci dolorem iste asperiores dolores enim iusto fugit eos ut quisquam consectetur? </p>
+
+            <button class="btn btn-danger ">Learn More</button>
+          </div>
+          <div class="col-12 col-md-6">
+            <img src="./img/students1.png" alt="" width="70%">
+          </div>
+          
+          </div>
+        </div>
+
+      </section>
 
       <!-- COURSES -->
-      <section id="courses"></section>
+      <section id="courses" class="container bg-dark p-3">
+        <h2 class="display-6 text-danger">COURSES</h2>
+
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link active"
+              id="pills-home-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#fs-images"
+              type="button"
+              role="tab"
+              aria-controls="pills-home"
+              aria-selected="true"
+            >
+              Full-Stack
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="pills-profile-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#ds-images"
+              type="button"
+              role="tab"
+              aria-controls="pills-profile"
+              aria-selected="false"
+            >
+              Data-Science
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="pills-contact-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#dev-images"
+              type="button"
+              role="tab"
+              aria-controls="pills-contact"
+              aria-selected="false"
+            >
+              DevOps
+            </button>
+          </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+          <div
+            class="tab-pane fade show active"
+            id="fs-images"
+            role="tabpanel"
+            aria-labelledby="pills-home-tab"
+            tabindex="0"
+          >
+            <div class="row g-2">
+              <div class="col-md-6 col-lg-3">
+                <a data-fslightbox href="./img/thumbnail/fs1.jpg">
+                  <img
+                    src="./img/thumbnail/fs1.jpg"
+                    class="img-thumbnail"
+                    alt="fs1"
+                  />
+                </a>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                <a data-fslightbox href="./img/thumbnail/fs2.jpg">
+                  <img
+                    src="./img/thumbnail/fs2.jpg"
+                    class="img-thumbnail"
+                    alt="fs2"
+                  />
+                </a>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                <a data-fslightbox href="./img/thumbnail/fs3.jpg">
+                  <img
+                    src="./img/thumbnail/fs3.jpg"
+                    class="img-thumbnail"
+                    alt="fs3"
+                  />
+                </a>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                <a data-fslightbox href="./img/thumbnail/fs4.jpg">
+                  <img
+                    src="./img/thumbnail/fs4.jpg"
+                    class="img-thumbnail"
+                    alt="fs4"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="ds-images"
+            role="tabpanel"
+            aria-labelledby="pills-profile-tab"
+            tabindex="0"
+          >
+            <div class="row g-2">
+              <div class="col-md-6 col-lg-3">
+                <a data-fslightbox href="./img/thumbnail/ds1.jpg">
+                  <img
+                    src="./img/thumbnail/ds1.jpg"
+                    class="img-thumbnail"
+                    alt="ds1"
+                  />
+                </a>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                <a data-fslightbox href="./img/thumbnail/ds2.jpg">
+                  <img
+                    src="./img/thumbnail/ds2.jpg"
+                    class="img-thumbnail"
+                    alt="ds2"
+                  />
+                </a>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                <a data-fslightbox href="./img/thumbnail/ds3.jpg">
+                  <img
+                    src="./img/thumbnail/ds3.jpg"
+                    class="img-thumbnail"
+                    alt="ds3"
+                  />
+                </a>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                <a data-fslightbox href="./img/thumbnail/ds4.jpg">
+                  <img
+                    src="./img/thumbnail/ds4.jpg"
+                    class="img-thumbnail"
+                    alt="ds4"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="dev-images"
+            role="tabpanel"
+            aria-labelledby="pills-contact-tab"
+            tabindex="0"
+          >
+            <div class="row g-2">
+              <div class="col-md-6 col-lg-3">
+                <a data-fslightbox href="./img/thumbnail/ops1.jpg">
+                  <img
+                    src="./img/thumbnail/ops1.jpg"
+                    class="img-thumbnail"
+                    alt="ops1"
+                  />
+                </a>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                <a data-fslightbox href="./img/thumbnail/ops2.jpg">
+                  <img
+                    src="./img/thumbnail/ops2.jpg"
+                    class="img-thumbnail"
+                    alt="ops2"
+                  />
+                </a>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                <a data-fslightbox href="./img/thumbnail/ops3.jpg">
+                  <img
+                    src="./img/thumbnail/ops3.jpg"
+                    class="img-thumbnail"
+                    alt="ops3"
+                  />
+                </a>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                <a data-fslightbox href="./img/thumbnail/ops4.jpg">
+                  <img
+                    src="./img/thumbnail/ops4.jpg"
+                    class="img-thumbnail"
+                    alt="ops4"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <!-- CONTACT -->
-      <section id="contact"></section>
+      <section id="contact" class="container bg-light p-3">
+        <h2 class="display-6 text-danger">CONTACT</h2>
+
+        <article id="form">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt nam aspernatur suscipit soluta ea eveniet dolores odit quis ducimus eaque?</p>
+
+          <div class="row">
+            <div class="col-md-4">
+              <i class="fas fa-phone fa-2x text-danger"></i>
+              <h4>Telephone</h4>
+              <a href="tel:+9023409567">+9023409567</a>
+            </div>
+
+
+            <div class="col-md-4">
+              <i class="fab fa-whatsapp fa-2x text-danger"></i>
+              <h4>Whatsapp</h4>
+              <a href="https://wa.me/+9023409567">+9023409567</a>
+            </div>
+
+
+            <div class="col-md-4">
+              <i class="fas fa-envelope fa-2x text-danger"></i>
+              <h4>Email</h4>
+              <a href="tmailto:info@clarusway">info@clarusway</a>
+            </div>
+
+
+          </div>
+        </article>
+
+
+
+
+        <article id="location"></article>
+      </section>
     </main>
 
     <!-- FOOTER -->
+    
 
     <!-- UP-BTN -->
 
